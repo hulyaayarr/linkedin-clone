@@ -31,6 +31,7 @@ input.searche::placeholder {
 }
 
 .menutext {
+  display: none;
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   color: gray;
@@ -139,6 +140,27 @@ button.ref:hover {
   font-size: 14px;
   margin-left: 8px;
 }
-.posttext a {
+
+.t-none:hover {
+  text-decoration: underline;
+}
+.t-none {
   text-decoration: none;
+}
+
+@media (min-width: 853px) {
+  .menutext {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .mid-card {
+    width: 100%;
+    min-width: 15rem;
+  }
+}
+.navbar-nav {
+  flex-direction: row;
 }
