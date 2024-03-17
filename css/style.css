@@ -2,12 +2,6 @@
   height: 55px;
   background-color: white;
 }
-.navbar .container {
-  justify-content: flex-start; /* İçeriği başlangıç noktasına (sol kenara) hizala */
-}
-.navbar .container {
-  justify-content: flex-start; /* İçeriği başlangıç noktasına (sol kenara) hizala */
-}
 
 input.searche {
   height: 36px;
@@ -151,14 +145,18 @@ button.ref:hover {
 @media (min-width: 853px) {
   .menutext {
     display: block;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
   }
   .mid-card {
     width: 100%;
     min-width: 15rem;
+  }
+}
+.navbar-nav {
+  flex-direction: row;
+}
+@media (max-width: 853px) {
+  .nav-link {
+    margin-left: 22px;
   }
 }
 .navbar-nav {

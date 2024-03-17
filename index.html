@@ -17,12 +17,19 @@
       integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body class="body">
     <!-- navbar -->
     <nav
-      class="navbar navbar-expand-lg navbar-light navbarbg position-fixed border-bottom"
+      class="navbar navbar-expand-lg navbar-light navbarbg position-fixed border-bottom py-0"
       style="z-index: 100; width: 100%"
     >
       <div class="container">
@@ -33,7 +40,7 @@
           ></i
         ></a>
 
-        <form class="form-inline d-none d-md-block">
+        <form class="form-inline d-none d-lg-block">
           <input
             class="form-control searche"
             type="search"
@@ -42,48 +49,42 @@
           />
         </form>
 
-        <div class="ms-auto">
+        <div class="ms-lg-auto deneme">
           <ul class="navbar-nav text-center">
-            <li class="nav-item active me-3">
+            <li class="nav-item active me-3 d-block d-lg-none">
               <a class="nav-link" href="#">
-                <i class="fas fa-magnifying-glass fa-lg"></i>
-
+                <i class="fa-solid fa-magnifying-glass fa-lg"> </i>
                 <div class="menutext">Arama Yap</div>
               </a>
             </li>
             <li class="nav-item active me-3">
               <a class="nav-link" href="#"
-                ><i class="fas fa-home fa-lg" style="color: black">
-                  <div class="menutext" style="color: black">Ana Sayfa</div></i
-                >
+                ><i class="fa-solid fa-house-chimney fa-lg"> </i>
+                <div class="menutext">Ana Sayfa</div>
               </a>
             </li>
             <li class="nav-item active me-4">
               <a class="nav-link" href="#"
-                ><i class="fas fa-user-friends fa-lg">
-                  <div class="menutext">Ağım</div></i
-                >
+                ><i class="fa-solid fa-user-friends fa-lg"> </i>
+                <div class="menutext">Ağım</div>
               </a>
             </li>
             <li class="nav-item active me-2">
               <a class="nav-link" href="#"
-                ><i class="fas fa-briefcase fa-lg">
-                  <div class="menutext">İş İlanları</div></i
-                >
+                ><i class="fa-solid fa-briefcase fa-lg"> </i>
+                <div class="menutext">İş İlanları</div>
               </a>
             </li>
             <li class="nav-item active me-1">
               <a class="nav-link" href="#"
-                ><i class="fas fa-comment-dots fa-lg">
-                  <div class="menutext">Mesajlaşma</div></i
-                >
+                ><i class="fa-solid fa-comment-dots fa-lg"> </i>
+                <div class="menutext">Mesajlaşma</div>
               </a>
             </li>
             <li class="nav-item active me-1">
               <a class="nav-link" href="#"
-                ><i class="fas fa-bell fa-lg">
-                  <div class="menutext">Bildirimler</div></i
-                >
+                ><i class="fa-solid fa-bell fa-lg"> </i>
+                <div class="menutext">Bildirimler</div>
               </a>
             </li>
 
@@ -99,14 +100,14 @@
             </li>
             <li class="nav-item active border-start">
               <a class="nav-link ms-4 me-2" href="#"
-                ><i class="fas fa-th fa-lg"> <div class="menutext">İş</div></i>
+                ><i class="fa-solid fa-th fa-lg"> </i>
+                <div class="menutext">İş</div>
               </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#"
-                ><i class="fas fa-chalkboard fa-lg">
-                  <div class="menutext">İş İlanı Yayınla</div></i
-                >
+                ><i class="fa-solid fa-chalkboard fa-lg"> </i>
+                <div class="menutext">İş İlanı Yayınla</div>
               </a>
             </li>
           </ul>
